@@ -1,0 +1,16 @@
+/* init */
+.gap-mini {
+  margin-top: 10px;
+}
+
+.gap-md {
+  margin-top: 25px;
+}
+
+.gap-lg {
+  margin-top: 50px;
+}
+
+.gap-big {
+  margin-top: 70px;
+}

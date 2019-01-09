@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/navbar.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style2.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar-fixed">
+        <nav class="nav-style">
+            <div class="nav-wrapper">
+                <a id="logo-container" href="#" class="brand-logo logo center"> <img src="Assets/test.png" class="logo-img center"></a>
+                <ul id="nav-mobile" class="right sidenav">
+                    <li><a href="#">Navbar Link</a></li>
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="menu-icon sidenav-trigger left"><i class="material-icons">menu</i></a>
+                <form action="" class="browser-default right">
+                    <input id="search-input" placeholder="Search" type="text" class="browser-default search-field" name="q"
+                        value="" autocomplete="off" aria-label="Search box">
+                    <label for="search-input"><i class="material-icons search-icon">search</i></label>
+                    <i class="material-icons search-close-icon">cancel</i>
+                    <div class="search-popup">
+                        <div class="search-content">
+                            <label class="search-heading">Most Visited</label>
+                            <ul class="popup-list">
+                                <li class=""><a class="grey-text" href="#">Google</a></li>
+                                <li class=""><a class="grey-text" href="#">Apple</a></li>
+                                <li class=""><a class="grey-text" href="#">Microsoft</a></li>
+                                <li class=""><a class="grey-text" href="#">Github</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div style="background-color: #f5f5f5;">
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <div class="card-panel white" style="height: 700px;">
+                    <h3 style="color: black;">Edit Profile</h3>
+                    <div style="flex-direction: horizontal; position: absolute;">
+                        <h3 style="color: black; position: absolute; margin-left: 600%; margin-top: -60%; font-weight: 500; color: #bbbbbb;">Jonny</h3>
+                        <img src="https://instagram.fcgk7-1.fna.fbcdn.net/vp/b86ef92c0f4c18b1f3a4be6506643902/5CA2CC79/t51.2885-19/s150x150/47217319_2409846022363391_6375493804014698496_n.jpg"
+                            class="z-depth-1" style="width:75px; height: 75px; border-radius: 100%; margin-left: 450%; margin-top: -450%;"
+                            onerror="this.src ='http://infodarianda.com/storage/default.jpg'">
+                        <a class="btn-floating btn-small waves-effect waves-light red" style="position: absolute; margin-left: 530%; margin-top: -50%;"><i
+                                class="material-icons">camera_alt</i>
+                        </a>
+                    </div>
+
+                    <div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:4%;">
+                        <input id="nama" type="text" class="validate">
+                        <label for="nama">Nama</label>
+                    </div>
+
+<div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:9%;">
+    <select>
+        <option value="" disabled selected>Choose your option</option>
+        <option value="1">Laki-Laki</option>
+        <option value="2">Perempuan</option>
+    </select>
+    <label>Jenis Kelamin</label>
+</div>
+
+<div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:14%;">
+    <input id="hp" type="text" class="validate">
+    <label for="hp">No. Hp</label>
+</div>
+
+<div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:19%;">
+    <textarea id="textarea1" class="materialize-textarea"></textarea>
+    <label for="textarea1">Alamat</label>
+</div>
+
+<div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:24%;">
+    <input id="website" type="text" class="validate">
+    <label for="website">No. Hp</label>
+</div>
+
+                    <div class="input-field col s4" style="position:absolute; margin-left:24%; margin-top:29%;">
+                        <input id="tentang" type="text" class="validate">
+                        <label for="tentang">Tentang Anda</label>
+                        <br>
+                        <br>
+                        <a class="waves-effect waves-light btn" style="background-color:red;">SIMPAN PERUBAHAN</a>
+                    </div>
+
+                    <div style="width: 10px; border-left: 5px red solid; margin-left: -2.3%;">
+                        <p style=" margin-left: 850%;">Biodata</p>
+                    </div>
+                    <p style=" margin-left: 23px;">Password</p>
+                    <p style=" margin-left: 23px;">Website</p>
+                    <p style=" margin-left: 23px;">Email</p>
+                    <div style="height: 700px; border: 1px #bbbbbb solid; position: absolute;
+            margin-left: 20%; margin-top: -23%;"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer" style="padding-top: 0px; background-color: #b71c1c;">
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright ©2018 <a class="orange-text text-lighten-3" href="http://infodarianda.com">InfodariAnda</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/search.js"></script>
+<script src="js/cbox.js"></script>
+
+</body>
+
+</html>

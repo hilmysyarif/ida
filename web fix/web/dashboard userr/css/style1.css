@@ -1,0 +1,40 @@
+.notification-badge {
+  position: relative;
+  right: 5px;
+  top: -20px;
+  color: #941e1e;
+  background-color: #d8ff00;
+  margin: 0 -.8em;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.myBox {
+  border: none;
+  padding: 5px;
+  font: 24px/36px sans-serif;
+  width: 650px;
+  height: 400px;
+  overflow: auto;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border: none;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
